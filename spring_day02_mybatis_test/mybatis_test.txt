@@ -1,0 +1,17 @@
+Java Project - MyBatis Setting
+
+1. 자바 프로젝트 준비
+	- spring_day02_mybatis_test
+
+2. 라이브러리 준비
+	1) mvnrepository.com 접속
+	2) mybatis-3.3.1.jar 라이브러리
+	
+3. DB 구동
+	1) H2 DB 사용
+		- SARAM Table 준비
+		- ID, NAME, AGE 필드
+
+4. mybatis-config.xml 파일
+	1) 구글에서 "마이바티스" 검색 -> 한글문서 참조
+	2) 프로젝트의 src 폴더에 생성
