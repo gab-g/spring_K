@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+	<bean id="collectionBean" class="org.comstudy21.saram.di.CollectionBean">
+		<property name="saramSet">
+			<set value-type="java.lang.String">
+				<value>서울시 | 갑지 | 25</value>
+				<value>경주시 | 선덕 | 33</value>
+				<value>대전시 | 홍홍 | 27</value>
+				<value>부천시 | 김아무개 | 11</value>
+			</set>
+		</property>
+		<property name="saramMap">
+			<map>
+				<entry>
+					<key><value>oh</value></key>
+					<value>오영윤 | 광주 | 30</value>
+				</entry>
+				<entry>
+					<key><value>gabg</value></key>
+					<value>김지영 | 전주 | 25</value>
+				</entry>
+			</map>
+		</property>
+		<property name="saramProp">
+			<props>
+				<prop key="김지영">김 | 지 | 영</prop>
+				<prop key="오영윤">오 | 영 | 윤</prop>
+				<prop key="제주도">제 | 주 | 도</prop>
+			</props>
+		</property>
+	</bean>
+
+</beans>
